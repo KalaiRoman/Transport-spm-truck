@@ -1,0 +1,247 @@
+//Root for dark
+:root {
+  --dark-color1: #111111;
+  --dark-color2: #232323;
+  --dark-color3: #343434;
+  --dark-color4: #212529;
+}
+
+//dark color1
+.bg-dark-1,
+body,
+.sticky-header.fixed-header,
+.page-wrapper,
+.header-style-one .main-box,
+.about-section .content-column .inner-column,
+.news-block .inner-box:before,
+.main-footer .widgets-section:before,
+.btn-style-two,
+.header-style-two .header-top,
+.service-block-two .inner-box,
+.testimonial-block-two .inner-box,
+.contact-section,
+.testimonial-section-two,
+.call-to-action-two::before,
+.banner-section .content-box .line
+{
+  background-color: var(--dark-color1);
+}
+// Dark 1 Border Color 
+.bg-dark-light,
+.why-choose-home2:before
+{
+	background-color: var(--dark-color1);
+	opacity: 0.9;
+}
+
+//dark color 2
+.bg-dark-2,
+.header-top,
+.service-block .inner-box,
+.work-block .content-box,
+.header-top .social-links,
+.fact-counter .counter-column .inner-column,
+.project-block .content-box .inner,
+.testimonial-block .inner-box,
+.accordion-box,
+.quote-section .form-column .inner-column,
+.clients-carousel .owl-nav,
+.news-section .bg-image::before,
+.news-section,
+.call-to-action,
+.footer-bottom,
+.about-block .icon,
+.services-section-two,
+.pricing-block .inner-box,
+.team-block .info-box,
+.branch-block,
+.contact-form,
+.header-style-two .header-top .social-links,
+.header-style-two .main-box,
+.about-section-two .image-column .image::before
+{
+  background-color: var(--dark-color2);
+}
+// Dark 2 Border Color 
+.work-block .content-box:after
+{
+	border-top-color: var(--dark-color2);
+}
+.about-block .icon:after{
+	border-left-color: var(--dark-color2);
+}
+
+//dark color 3
+.bg-dark-3,
+.work-block .inner-box .icon,
+.fact-counter .counter-column .icon,
+.faqs-section:before,
+.testimonial-block .rating,
+.call-to-action .outer-box,
+.pricing-section .bg-layer
+{
+  background-color: var(--dark-color3);
+}
+// Dark 3 Border Color 
+.work-block .inner-box .icon:after{
+	border-top-color: var(--dark-color3);
+}
+
+//dark color 4
+.bg-dark-4,
+.work-block .process-btn
+{
+	background-color: var(--dark-color4);
+}
+// Dark 4 Border Color 
+.banner-section-four .image-column .inner-column .image img{
+	border-color: var(--dark-color4);
+}
+// black color
+.btn-style-three
+{
+  background-color: #000;
+}
+
+//border dark color 1
+.process-block .inner-box::before,
+.service-block .inner-box
+{
+  border-color: var(--dark-color1);
+}
+
+//border dark color 2
+//border color
+
+//text color
+.main-menu .navigation > li > a,
+.main-menu .navigation > li.current > a,
+strong,
+.title a,
+.sec-title h2,
+.main-header .ui-btn,
+.service-block h4 a,
+.work-block h4 a,
+.fact-counter .count-box,
+.fact-counter .count-box .count-text,
+.project-block .content-box .inner h4 a,
+.testimonial-block .name,
+.faq-block h4,
+.accordion-box .block .acc-btn,
+.accordion-box .block .acc-btn.active .icon,
+.news-block h4 a,
+.metis.tparrows:before,
+.service-block-two h4 a,
+.pricing-block .price-box .price,
+.team-block .info-box h4 a,
+.testimonial-block-two .name,
+.branch-block h5
+{
+	color: var(--theme-color-light) !important;
+}
+
+.text-lights,
+p,
+.text,
+.header-top .social-links li a,
+.branch-block p,
+.branch-block p a
+{
+	color: rgba(255, 255, 255, .6);
+}
+
+.bg-dark-text-light,
+.btn-style-one,
+.play-now .icon,
+.select2-container--default .select2-selection--single,
+.clients-carousel .owl-nav .owl-prev,
+.clients-carousel .owl-nav .owl-next,
+.subscribe-form .form-group input[type=text],
+.subscribe-form .form-group input[type=email],
+.metis.tparrows,
+.banner-section .image-box .video-box .play-now .icon,
+.list-style-two li,
+.contact-form .form-group input,
+.contact-form .form-group textarea,
+.contact-form .form-group select,
+.testimonial-section-two .trust-score .rating i,
+.team-block .share-icon,
+.service-block-two .icon,
+.contact-section .info-column .branches-carousel .owl-nav .owl-next,
+.contact-section .info-column .branches-carousel .owl-nav .owl-prev,
+.news-block .date
+{
+	background-color: var(--theme-color-dark);
+	color: var(--theme-color-light);
+}
+.range-slider-one .ui-slider .ui-slider-range{
+	background-color: var(--theme-color-dark);	
+}
+/*	Border Color */
+.border-color,
+.about-section blockquote,
+.about-section .image-column .image-2,
+.testimonial-block .inner-box,
+.accordion-box .block .acc-btn,
+.select2-container--default .select2-selection--single,
+.request-form .form-group input,
+.request-form .form-group textarea,
+.request-form .form-group select,
+.clients-carousel,
+.news-block .inner-box:before,
+.testimonial-thumb .image img,
+.pricing-block .price-box,
+.contact-form .form-group input,
+.contact-form .form-group textarea,
+.contact-form .form-group select,
+.testimonial-block-two .inner-box
+{
+  border-color: #2c2a2a !important;
+}
+
+.why-choose-us-home1 .info-box:before
+{
+	border-top-color: #2c2a2a;
+}
+.bg-border-color,
+.team-block .inner-box:before
+{
+	background-color: #2c2a2a;
+}
+
+// opacity
+.op-2
+{
+	opacity: 0.2;
+}
+
+//body color 
+.bg-unset
+{
+  background-color: unset;
+}
+
+.fact-counter .counter-title{
+	border: none;
+}
+.accordion-box .block .acc-btn{
+	border-radius: 0;
+}
+
+
+//bg image
+.counter-block .inner,
+.bg-pattern-1
+{
+  background-image: unset;
+}
+
+.services-section:before{
+  background-image: url(../images/icons/pattern-1-dark.png);
+}
+
+.img-light,
+.clients-carousel .slide-item img
+{
+	filter: brightness(0) invert(1);
+}
